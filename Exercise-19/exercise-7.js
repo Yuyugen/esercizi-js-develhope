@@ -31,7 +31,7 @@ class Person {
 
   set age(newVal) {
     if (typeof newVal === "number") {
-      this._age = age;
+      this._age = newVal;
     } else {
       this._age = Number(newVal);
     }
