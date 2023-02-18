@@ -5,8 +5,8 @@ class Person {
   }
 
   static fromObject(object) {
-    let newObj = new Person(object.firstName, object.lastName);
-    return newObj;
+    let newPerson = new Person(object.firstName, object.lastName);
+    return newPerson;
   }
 }
 
