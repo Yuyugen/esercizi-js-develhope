@@ -1,5 +1,7 @@
 function uncompletedNotes(notes) {
-  // ...
+  notes.forEach((list) => {
+    console.log(list.todos.filter((todoItem) => todoItem.done === false));
+  });
 }
 
 const notes = [
